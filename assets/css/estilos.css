@@ -1,14 +1,41 @@
 body {
   font-family: "Raleway", sans-serif;
+  background-color: black;
+  color: white;
+
+  font-family: 'Martel Sans', sans-serif !important;
+  
+  
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+}
+
+#Hero-Section h1{
+  font-family: "My Soul", cursive !important;
+  font-style: italic !important;
+  font-size: normal !important;
+}
+
+#Hero-Section h3{
+  font-family: "My Soul", cursive !important;
+  font-style: italic !important;
+  font-size: normal !important;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: black !important;
+}
+
+.ms-auto {
+  margin-left: 40% !important;
 }
 
 /* Mis trabajos */
@@ -19,6 +46,20 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+ .text-end{
+  text-align: center !important;
+  text-size-adjust: 50% !important;
+} 
+
+ .display-1 {
+  font-size: 8rem;
+}
+.display-2 {
+  font-size: 2rem;
+}
+
+
 
 /* Contacto */
 
