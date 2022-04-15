@@ -68,6 +68,16 @@ body {
   color: #373a3c;
 }
 
+#Contacto form input{
+  background: #373a3c;
+}
+
+#Contacto form textarea{
+  background: #373a3c;
+}
+
+
+
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
